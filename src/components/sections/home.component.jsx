@@ -25,7 +25,7 @@ const Home = () => {
       <div className='slider'>
         <Slider {...settings}>
           {photos.map((photo) => {
-            return <img src={photo.loc} />
+            return <img alt={photo.name} key={photo.name} src={photo.loc} />
           })}
         </Slider>
       </div>

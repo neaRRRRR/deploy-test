@@ -1,5 +1,4 @@
 import React from 'react'
-import bg from '../../assets/background.webp'
 import './history.styles.scss'
 
 const History = () => {

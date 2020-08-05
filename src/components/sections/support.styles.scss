@@ -1,0 +1,87 @@
+.support-main {
+  width: 100%;
+  height: 1000px;
+}
+
+.info {
+  width: 100%;
+  height: 85%;
+  background-color: #c9dd72;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+}
+
+.contact {
+  width: 20%;
+  padding-left: 25%;
+  padding-top: 10%;
+}
+
+.contact-h {
+  font: normal normal normal 40px cormorantgaramond-light, cormorantgaramond,
+    'cormorant garamond', serif;
+}
+
+.contact-p {
+  width: 40%;
+  line-height: 40px;
+  font: normal normal normal 15px/1.875em montserrat, sans-serif;
+}
+
+.form {
+  text-align: center;
+  padding-left: 30%;
+  margin-top: -15%;
+}
+
+input[type='text'] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  flex-direction: column;
+  background-color: #c9dd72;
+}
+
+input:last-child {
+  height: 100px;
+}
+
+::placeholder {
+  font: normal normal normal 15px/1.875em montserrat, sans-serif;
+  color: black;
+}
+
+.btn {
+  width: 30%;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background-color: #e9f8a5;
+  color: black;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.imgclass:hover {
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 50px;
+}

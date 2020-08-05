@@ -1,0 +1,50 @@
+.solutions-main {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  background-image: url('../../assets/solutions-img.webp');
+}
+
+.right {
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.solution-content {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 20%;
+}
+
+.solution-p {
+  text-align: left;
+  font: normal normal normal 18px/1.75em montserrat, sans-serif;
+}
+
+.solution-h {
+  margin-bottom: 30px;
+  text-align: left;
+  font: normal normal normal 40px/1.35em cormorantgaramond-light,
+    cormorantgaramond, 'cormorant garamond', serif;
+  color: #c9dd72;
+}
+
+.list {
+  padding-top: 80px;
+  margin-left: auto;
+  text-align: left;
+  line-height: 40px;
+  font: normal normal normal 15px/1.875em montserrat, sans-serif;
+}
+
+.sol-star {
+  width: 30px;
+  padding-top: 150px;
+  fill: #c9dd72;
+}
