@@ -1,5 +1,6 @@
 {
   "name": "ubg",
+  "homepage": "http://neaRRRRR.github.io/deploy-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "react-slick": "^0.27.2-beta-1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.2"
   }
