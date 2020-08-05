@@ -18,6 +18,7 @@ const Solutions = () => {
               <a
                 style={{ textDecoration: 'underline' }}
                 target='_blank'
+                rel='noopener noreferrer'
                 href={'https://webgumruk.com/authentication/login.xhtml'}
               >
                 MY Web

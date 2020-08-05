@@ -22,6 +22,7 @@ const Support = () => {
           </p>
           <div className='items'>
             <a
+              rel='noopener noreferrer'
               target='_blank'
               href={
                 'https://www.linkedin.com/company/ugurcan-customs-consultancy-ltd/'
@@ -29,10 +30,15 @@ const Support = () => {
             >
               <img className='imgclass' alt='1' src={linkedin}></img>
             </a>
-            <a target='_blank' href={'https://www.ugmgumruk.com/'}>
+            <a
+              rel='noopener noreferrer'
+              target='_blank'
+              href={'https://www.ugmgumruk.com/'}
+            >
               <img className='imgclass' alt='2' src={chain}></img>
             </a>
             <a
+              rel='noopener noreferrer'
               target='_blank'
               href={'https://webgumruk.com/authentication/login.xhtml'}
             >
